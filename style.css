@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+}
+body{
+justify-content: center;
+background-color: grey;
+}
+.wageform{
+margin: auto;
+width: 50%;
+}
+.formcontainer{
+position: absolute;
+top: 65%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: azure;
+padding-right: 65px;
+border: 10px black;
+border-radius: 2em;
+
+}
+h1{
+width: 300px;
+}
+h2{
+width: 200px;
+font-size: 90%;
+}
+label{
+display: block;
+width:150px;
+}
+input{
+display: block;
+width: 15em;
+}
+div{
+padding: 10px 0;
+}
+.fullcheck{
+margin-top: 25px;
+}
+label .fullcheck {
+font-style: bold;
+font-size: 30px;
+}
+input#sundayTips{
+margin-bottom: 20px;
+}
+/*  */
+button{
+width: 15em;
+height: 2em;
+background-color: darkblue;
+color: white;
+}
+button:hover{
+background-color: blue;
+}
