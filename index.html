@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="myscript.js"></script>
+   <title>Document</title>
+</head>
+<body>
+  <div class="formcontainer">
+  <form class="wageform">
+    <h1>Wage Calculator</h1>
+    <h2>Enter Tips Made:</h2>
+    <div>
+    <label for="mondayTips">Monday:</label>
+<input type="number" id="mondayTips" name="mondayTips">
+</div>
+<div>
+  <label for="tuesdayTips">Tuesday:</label>
+<input type="number" id="tuesdayTips" name="tuesdayTips">
+</div>
+<div>
+  <label for="wednesdayTips">Wednesday:</label>
+<input type="number" id="wednesdayTips" name="wednesdayTips">
+</div>
+<div>
+  <label for="thursdayTips">Thursday:</label>
+<input type="number" id="thursdayTips" name="thursdayTips">
+</div>
+<div>
+<label for="fridayTips">Friday:</label>
+<input type="number" id="fridayTips" name="fridayTips">
+</div>
+<div>
+<label for="saturdayTips">Saturday:</label>
+<input type="number" id="saturdayTips" name="saturdayTips">
+</div>
+<div>
+<label for="sundayTips">Sunday:</label>
+<input type="number" id="sundayTips" name="sundayTips">
+</div>
+  <span class="fullcheck"
+ <label>Enter Full Check </label>
+<input type="text" id="fullcheck" placeholder="$"/><br><br>
+</span>
+<span class="hoursworked">
+ <label>Enter Hours Worked:</label>
+ <input type="text" id="hoursWorked" placeholder="hours"/><br><br>
+</span>
+ <button onclick="calculateTotal(event)"id="buttonid">Calculate Total</button>
+  <!-- <span class="modal hidden">
+    <button class="close-modal">&times;</button> -->
+ <p id="result"></p>
+  <p id="totalresult"></p>
+<!-- </span>
+<div class="overlay hidden"></div> -->
+  <button onclick="resetFields()" id="buttonid" >Clear Inputs</button>
+</form>
+</div>
+</body>
+</html>
